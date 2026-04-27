@@ -1,4 +1,4 @@
-000100260427  // Simple call to rpgle DEMO5 using CO for the state
+000100260427  // Simple call to rpgle DEMO5 using MN for the state
 000200110823
 000300110823#include <stdio.h>
 000400211117#pragma linkage(DEMO5, OS, nowiden)
@@ -6,7 +6,7 @@
 000600211117void DEMO5(char *);
 000700211117
 000800211117int main( int argc, char *argv[] ) {
-000900260427  char *state = "CO";
+000900260427  char *state = "MN";
 001000211117
 001100211117  DEMO5(state);
 001200211117
