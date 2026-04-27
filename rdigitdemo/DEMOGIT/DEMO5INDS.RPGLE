@@ -1,6 +1,7 @@
 000100211117**free
 000200230425// This is the *INDS for Demo5DS
-000300211117dcl-ds inDS qualified;
+000300260427// @ignore-unused
+000301260427dcl-ds inDS qualified;
 000400230421  dspctl  ind pos(30);
 000500230421  exit    ind pos(03);
 000600230421  refresh ind pos(05);
