@@ -1,0 +1,7 @@
+000100211110/* Call our weather event api for the passed in state */
+000200211203
+000300211110 START:      PGM        PARM(&STATE)
+000400211110             DCL        VAR(&STATE) TYPE(*CHAR) LEN(2) /* What state +
+000500211110                          should we display events for? */
+000600220815 CALLAPI:    CALL       PGM(DEMO5RPGC) PARM(&STATE)
+000700211110 ENDIT:      ENDPGM
