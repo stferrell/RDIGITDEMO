@@ -1,5 +1,5 @@
 000100211117**free
-000200230425// This is the *INDS for Demo5DS
+000200260428// This is the *INDS for Demo5DS to show copy file usage
 000300260427// @ignore-unused
 000301260427dcl-ds inDS qualified;
 000400230421  dspctl  ind pos(30);
