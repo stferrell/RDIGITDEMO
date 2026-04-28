@@ -3,7 +3,7 @@
 000300211026// This program uses systools.httpgetclob api to request the api.weather.gov alerts
 000400211026// for the requested state. It is a work in progress to demo.
 000401260427// Add a comment for eGit demo
-000402260428// And another
+000402260428// And another one
 000500240425
 000600240425ctl-opt dftactgrp(*no) actgrp('RDI') option( *srcstmt: *nodebugio: *noxref ) ccsid(*CHAR:37);
 000700211021
